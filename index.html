@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jainam Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/01da381823.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <img src="images/JAINAM SHETH.jpg" alt="JAINAM SHETH" style="width:min-content heigth=auto">
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/JAINAM LOGO (2).png" class="logo" alt="JAINAM LOGO" style="width: 150px; height: auto;">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+               
+                <h1 class="blink">Hi, I'm <span>Jainam</span> <br>From Ahmedabad</h1>
+                <p class="typing">COMPUTER SCIENCE</p>
+            </div>
+        </div>
+    </div>
+    <!-----------------about------------------->
+    <div id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img id="aboutmeimg" src="images/jainam.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Tea Obsessed,I am epesrtise in the C language.I'm ready to study new languages and ready for the new task to complete.
+                     <br>I'm also expertise in Web Designing . 
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>C language</span><br>System Programming</li>
+                            <li><span>C++</span><br>Management Systems</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024-202</span><br>Currently BSc-CS-IT from Silver Oak University Gujarat</li>
+                            <li><span>2024</span><br>Class 12th from Shayona Vidhyavihar School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------Services--------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">language </h1>
+                <div class="language-item">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Masterful creation of interactive and visually appealing user interfaces (UIs) using HTML, CSS, and
+                        JavaScript. Expertise in responsive design principles to ensure seamless experiences across desktop,
+                        tablet, and mobile devices.</p>
+                </div>
+                <div class="language-item">
+                    <i class="fa-solid fa-hashtag"></i>
+                    <h2>C language</h2>
+                    <p>In-depth understanding of memory management (pointers, dynamic allocation) and other C/C++ concepts critical for
+                        system-level programming.
+                        Experience in working with hardware interfaces, device drivers, or embedded systems programming using C or C++.
+                    </p>
+                </div>
+                <div class="service-item">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>C++</h2>
+                    <p>Mastery of C++ performance optimization techniques to create resource-efficient applications that excel in speed
+                        and responsiveness.
+                        Ability to leverage C++'s low-level control for tasks requiring maximum efficiency, such as system programming,
+                        game development, or performance-critical embedded systems.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/LAPTOP SCREEN-1.png">
+                    <div class="layer">
+                        <h3>Car Showroom Manager</h3>
+                        <p>Explore your dream car! This C++ program lets you browse car models, filter by fuel type or price range, and view detailed specs - all in a user-friendly interface.
+                        </p>
+                     </div>
+                </div>
+                <div class="work">
+                    <img src="images/WEB DESIGNING.jpg">
+                    <div class="layer">
+                        <h3>WEB DESIGNING</h3>
+                        <p>Web designing is the process of planning, conceptualizing, and arranging content online. It involves creating the visual layout and user experience of a website, including elements like colors, fonts, graphics, and navigation
+                         </p>
+                 </div>    
+                </div>
+                <div class="work">
+                    <img src="images/LAPTOP SCREEN-2.jpeg">
+                    <div class="layer">
+                        <h3>Staff Information Portal</h3>
+                        <p>Manage your team with ease!
+                            This C++ program lets you create a database of teaching and non-teaching staff. It simplifies tasks like adding employee details, searching by ID, and calculating average experience , all in a user-friendly interface.
+                        </p>
+                    </div>
+                </div>
+            
+    </div>
+    <!--------------------contact--------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+               
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/jainamsheth_216?igsh=dHduY2dkamVjMzk=" target="_main style="margin-left: 26px;"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/sheth-jainam-976303250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"  target="_main"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Jainam06sheth/PORTFOLIO" target="_main"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://web.telegram.org/k/#@JMSheth12" target="_main"><i class="fab fa-telegram-plane"></i></a>
+                    </div>
+                    <a href="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169 Made by <span style="color: #ff0000;">Jainam</span></p>
+          </div>
+          
+    </div>
+    
+    <script>
+        function blinkText() {
+            const blink = document.querySelector('.blink');
+            setInterval(() => {
+                blink.style.visibility = (blink.style.visibility === 'hidden' ? '' : 'hidden');
+            }, 1000);
+        }
+        blinkText();
+    </script>
+     <script>
+        function typeWriter(text, element, delay =500) {
+            let i = 0;
+            function type() {
+                if (i < text.length) {
+                    element.innerHTML += text.charAt(i);
+                    i++;
+                    setTimeout(type, delay=0);
+                }
+            }
+            type();
+        }
+        document.addEventListener("DOMContentLoaded", () => {
+            const element = document.querySelector('.typing');
+            const text = element.textContent;
+            element.textContent = '';
+            typeWriter(text, element);
+        });
+        </script>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <link rel="javaScript" href="main.js">
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz0BrvQTTGwy-_frv1gfc8uMpDRkhfrFUjXoFPWp96XPQutttYlRrdaNOHn9p-Zw5ZDCw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+  </div>
+</body>
+
+</html>
